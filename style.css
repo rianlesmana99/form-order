@@ -87,7 +87,7 @@ body {
 }
 
 table, tr, th, td {
-    border: solid 1px black;
+    border: solid 2px darkgreen;
     border-collapse: collapse;
 }
 
@@ -96,7 +96,7 @@ table, tr, th, td {
 }
 
 #table-content th {
-    background-color: green;
+    background-color: darkgreen;
     color: #fff;
     padding: 5px 10px;
 }

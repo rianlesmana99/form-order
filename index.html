@@ -12,11 +12,11 @@
             <form id="parent-form">
                 <div class="input-group">
                     <label for="fullName">Nama Lengkap</label>
-                    <input type="text" name="fullName" id="fullName">
+                    <input type="text" name="fullName" id="fullName" required>
                 </div>
                 <div class="input-group">
                     <label for="productName">Pilih Produk</label>
-                    <select id="productName" name="productName">
+                    <select id="productName" name="productName" required>
                         <option>-</option>
                         <option value="Buku">Buku</option>
                         <option value="Sepatu">Sepatu</option>
@@ -29,11 +29,11 @@
                 </div>
                 <div class="input-group">
                     <label for="price">Harga Satuan</label>
-                    <input type="number" name="price" id="price">
+                    <input type="number" name="price" id="price" required>
                 </div>
                 <div class="input-group">
                     <label for="quantity">Jumlah Produk</label>
-                    <input type="number" name="quantity" id="quantity">
+                    <input type="number" name="quantity" id="quantity" required>
                 </div>
                 <button type="submit">Submit</button>
             </form>
@@ -48,7 +48,7 @@
                     <th>Total Harga</th>
                 </tr>
                 <tr>
-                    <td colspan="5">Masi kosong</td>
+                    <td colspan="5">Data Masih Kosong!</td>
                 </tr>
             </table>
         </section>
